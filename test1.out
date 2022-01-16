@@ -1,0 +1,208 @@
+:: PROGRAM START
+:: TEST - CONNECTING TO DATABASE
+:: TEST - SUCCESSFULLY CONNECTED TO DATABASE
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: OPEN ACCOUNT - RUNNING
+
+:: OPEN ACCOUNT - RUNNING
+
+:: OPEN ACCOUNT - RUNNING
+
+:: OPEN ACCOUNT - RUNNING
+
+:: OPEN ACCOUNT - RUNNING
+
+:: OPEN ACCOUNT - RUNNING
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1005	   25
+-------------------
+Total 	   25
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+-------------------
+Total 	   0
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: DEPOSIT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1000	   1010
+1001	   2000
+1002	   2000
+1003	   2000
+1004	   100
+-------------------
+Total 	   7110
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: DEPOSIT - RUNNING
+:: OPEN ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1005	   25
+-------------------
+Total 	   25
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: WITHDRAW - RUNNING
+:: WITHDRAW - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1006	   500
+1007	   10000
+-------------------
+Total 	   10500
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: WITHDRAW - RUNNING
+Not enough money
+Error has occurred
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1008	   1000
+1009	   7777
+-------------------
+Total 	   8777
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: TRANSFER - RUNNING
+:: TRANSFER - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+1006	   500
+1007	   10500
+-------------------
+Total 	   11000
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+-------------------
+Total 	   0
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: TRANSFER - RUNNING
+Not enough money
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+-------------------
+Total 	   0
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+-------------------
+Total 	   0
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: CLOSE ACCOUNT - RUNNING
+:: CLOSE ACCOUNT - SUCCESS
+
+:: ACCOUNT SUMMARY - RUNNING
+Number		Balance
+------		-------
+-------------------
+Total 	   0
+:: ACCOUNT SUMMARY - SUCCESS
+
+:: REPORT A - RUNNING
+ID		NAME	GENDER	AGE	TOTAL
+------  --------- --------- --------  -------
+102	Tommy	M	20	10500
+100	Tommy	M	20	8885
+103	Tommy	M	20	8777
+101	Tommy	M	20	25
+:: REPORT A - SUCCESS
+
+:: REPORT B - RUNNING
+AVERAGE
+----------
+0
+:: REPORT B - SUCCESS
+
+:: DEPOSIT - RUNNING
+Error has occurred
+
+:: WITHDRAW - RUNNING
+Error has occurred
+
+:: CREATE NEW CUSTOMER - RUNNING
+Error has occurred
+
+:: WITHDRAW - RUNNING
+Not enough money
+Error has occurred
+
+:: TRANSFER - RUNNING
+Not enough money
+
+:: REPORT A - RUNNING
+ID		NAME	GENDER	AGE	TOTAL
+------  --------- --------- --------  -------
+102	Tommy	M	20	10500
+100	Tommy	M	20	8885
+103	Tommy	M	20	8777
+101	Tommy	M	20	25
+:: REPORT A - SUCCESS
+
+:: PROGRAM END
